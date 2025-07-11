@@ -94,6 +94,9 @@ const RecentOrdersTable = () => {
 
   const sortedOrders = [...mockOrders].sort(getComparator(order, orderBy));
 
+  // if (Math.random() > 0.5) {
+  //   return new Error("ERROR RUSLAN");
+  // }
   return (
     <TableContainer
       component={Paper}
